@@ -1,0 +1,13 @@
+{
+  "name": "netlify-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "netlify-lambda build src/netlify/functions -o functions-build"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "netlify-lambda": "^2.0.16"
+  }
+}
