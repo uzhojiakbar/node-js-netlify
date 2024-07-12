@@ -7,4 +7,8 @@ app.get("/api/hello", (req, res) => {
   res.send({ message: "Hello, Netlify!" });
 });
 
+app.get("/", (req, res) => {
+  res.send({ message: "Hello, Netlify!" });
+});
+
 module.exports.handler = serverless(app);
