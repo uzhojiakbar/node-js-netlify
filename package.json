@@ -1,7 +1,7 @@
 {
   "name": "netlify-nodejs",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/netlify/functions/server.js", 
   "license": "MIT",
   "scripts": {
     "build": "netlify-lambda build src/netlify/functions -o functions-build"
